@@ -13,4 +13,6 @@ if argc != 3:
 result = float(sys.argv[1]) + float(sys.argv[2])
 
 # Print the result
-print("The sum is:", result)
+print("The sum of given numbers is:", result)
+# Exit with success status
+sys.exit(0)
